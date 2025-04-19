@@ -12,7 +12,7 @@ const Chapter1 = () => {
                         className='relative bg-white overflow-hidden h-full w-full rounded-xl cursor-pointer outline-red-500 flex flex-col justify-center items-center gap-2 shadow-lg shadow-black'
                         key={index}
                     >
-                        <img src={i.thubnail} loading='lazy' alt="" className='h-full w-full object-cover mask-b-from-75% md:mask-b-from-85% hover:opacity-95'/>
+                        <img src={i.thubnail} loading='lazy' alt="" className='h-full w-full object-cover mask-b-from-60% md:mask-b-from-85% hover:opacity-95'/>
                         <h1 className='absolute bottom-0 text-md md:text-lg font-bold uppercase text-center w-full p-2 font-ninja tracking-widest'>{i.title}</h1>
                     </Link>
                 ))}
