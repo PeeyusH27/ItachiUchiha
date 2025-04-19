@@ -96,8 +96,8 @@ const Story = () => {
                 />
                 <motion.div
                     className="space-y-6 text-lg md:text-lg leading-relaxed"
-                    initial={{ x: -100, opacity: 0 }}
-                    animate={{ x: 0, opacity: 1 }}
+                    initial={{ y: 40, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.8, delay: 2 }}
                 >
                     <p>{chapter.description[0]}</p>
@@ -109,8 +109,8 @@ const Story = () => {
             <div className="flex flex-col-reverse md:flex-row items-center max-w-6xl mx-auto mt-12 gap-8 px-6 mb-16">
                 <motion.div
                     className="space-y-6 text-lg md:text-lg leading-relaxed"
-                    initial={{ x: 100, opacity: 0 }}
-                    whileInView={{ x: 0, opacity: 1 }}
+                    initial={{ y: 40, opacity: 0 }}
+                    whileInView={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.8 }}
                 // viewport={{ once: true, amount: 0.3 }}
                 >
