@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Ninja';
+  src: url('../assets/midorima-personal-use/Midorima-PersonalUse-Regular.ttf') format('truetype');
+}
+.font-ninja{
+  font-family: 'Ninja', sans-serif;
+}
+
+@font-face {
+  font-family: 'Naruto';
+  src: url('../assets/ninja-naruto/njnaruto.ttf') format('truetype');
+}
+
+.font-naruto{
+  font-family: 'Naruto', sans-serif;
+}
+
+.outlined-text {
+  -webkit-text-stroke: 0.2px white;
+  color: transparent;
+}
+
+.outlined-head{
+  -webkit-text-stroke: 0.1px white;
+  color: rgb(141, 20, 44);
+}
