@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Chapter1 = () => {
     return (
         <div className='h-screen w-full flex justify-center items-center p-10 bg-zinc-900'>
-            <div className='grid grid-cols-2 justify-center items-center w-full md:w-[85%] lg:w-[75%] h-full gap-4'>
+            <div className='grid grid-cols-1 md:grid-cols-2 justify-center items-center w-full md:w-[85%] lg:w-[75%] h-full gap-4'>
                 {data && data.map((i, index) => (
                     <Link
                         to={`/chapters/${i.link}`}
