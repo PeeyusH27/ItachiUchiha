@@ -1,4 +1,3 @@
-// components/Loader.jsx
 import React, { useEffect, useState } from 'react';
 import { useLoader } from '../context/LoaderContext';
 

@@ -1,11 +1,10 @@
-// App.jsx
-import React, { Suspense } from 'react';
+import React, { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { LoaderProvider, useLoader } from './context/LoaderContext.jsx';
 import Loader from './components/Loader';
 import Konoha from './pages/Konoha';
 import Chapter1 from './pages/Chapter1';
-import Story from './pages/Story.jsx';
+const Story = lazy(() => import('./pages/Story.jsx'));
 import Footer from './components/Footer.jsx';
 
 const AppContent = () => {
